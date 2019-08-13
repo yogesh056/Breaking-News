@@ -1,0 +1,34 @@
+.bn {
+  font-size:10px;
+  background-color:d;
+  color:black;
+  font-weight:bold;
+    animation: bn 3s linear 0s infinite alternate;
+}
+
+.bndiv
+{
+  text-align: center;
+width: 100px;
+  height: 60px;
+  bottom:0;
+  position: absolute;
+  background-image: linear-gradient( to left, #8f6B29, #FDE08D, #DF9F28);
+  animation: bn-div 3s linear 0s infinite alternate;
+  
+}
+
+@keyframes bn-div {
+  0%   {width:100px}
+  25%  {width:180px}
+  50%  {width:200px}
+  75%  {width:180px}
+  100% {width:100px}
+}
+@keyframes bn {
+  0%   {font-size:18px}
+  25%  {font-size:23px;}
+  50%  {font-size:28px;}
+  75%  {font-size:25px;}
+  100% {font-size:18px;}
+}
